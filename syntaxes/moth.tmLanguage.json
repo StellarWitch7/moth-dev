@@ -47,7 +47,7 @@
 			},
 			{
 				"name": "keyword.other.moth",
-				"match": "\\b(namespace|class|foreign|func|static|public|private|local|return|ref)\\b"
+				"match": "\\b(namespace|class|foreign|func|static|public|private|local|return|ref|deref)\\b"
 			}
 		]
 		},
