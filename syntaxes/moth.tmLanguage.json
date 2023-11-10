@@ -89,11 +89,7 @@
 			"patterns": [
 				{
 					"name": "support.type.moth",
-					"match": "(#|\\?)[A-Za-z0-9]+\\*?"
-				},
-				{
-					"name": "support.type.moth",
-					"match": "\\\\>\\*?"
+					"match": "(#(\\([^)]+\\)|\\(\\))\\*?|(#|\\?)[A-Za-z0-9]+\\*?)"
 				}
 			]
 		},
