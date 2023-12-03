@@ -43,11 +43,11 @@
 			"patterns": [
 			{
 				"name": "keyword.control.moth",
-				"match": "\\b(if|while|else|attempt|seize|every|then|or|and)\\b"
+				"match": "\\b(if|while|else|attempt|seize|every|then|or|and|with)\\b"
 			},
 			{
 				"name": "keyword.other.moth",
-				"match": "\\b(namespace|class|foreign|func|static|public|private|local|return|ref|load)\\b"
+				"match": "\\b(namespace|class|foreign|func|static|public|private|local|return|ref|load|struct|macro)\\b"
 			}
 		]
 		},

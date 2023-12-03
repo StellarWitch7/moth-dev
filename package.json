@@ -31,5 +31,9 @@
         "path": "./syntaxes/moth.tmLanguage.json"
       }
     ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.22.0",
+    "vsce": "^2.15.0"
   }
 }
