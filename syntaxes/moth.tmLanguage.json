@@ -21,6 +21,9 @@
 			"include": "#types"
 		},
 		{
+			"include": "#namespaces"
+		},
+		{
 			"include": "#attributes"
 		},
 		{
@@ -43,11 +46,11 @@
 			"patterns": [
 			{
 				"name": "keyword.control.moth",
-				"match": "\\b(if|while|else|every|then|or|and|with)\\b"
+				"match": "\\b(if|while|else|every|then|or|and|with|for)\\b"
 			},
 			{
 				"name": "keyword.other.moth",
-				"match": "\\b(namespace|class|foreign|func|static|public|local|return|struct|macro)\\b"
+				"match": "\\b(namespace|foreign|fn|static|pub|var|ret|type|macro|impl|trait|virt|sealed)\\b"
 			}
 		]
 		},
@@ -90,6 +93,14 @@
 				{
 					"name": "support.type.moth",
 					"match": "(#(\\([^)]+\\)|\\[[^\\]]+|\\(\\))[\\*&]*|#[A-Za-z_][A-Za-z0-9_]*[\\*&]*|\\?)"
+				}
+			]
+		},
+		"namespaces": {
+			"patterns": [
+				{
+					"name": "support.type.moth",
+					"match": "\\broot::[^\\.#]+"
 				}
 			]
 		},
