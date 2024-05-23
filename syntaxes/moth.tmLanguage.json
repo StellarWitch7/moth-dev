@@ -50,7 +50,7 @@
 			},
 			{
 				"name": "keyword.other.moth",
-				"match": "\\b(namespace|foreign|fn|static|pub|var|ret|type|macro|impl|trait|virt|sealed)\\b"
+				"match": "\\b(namespace|foreign|fn|static|pub|var|ret|type|macro|impl|trait|virt|sealed|union|global|enum|extend)\\b"
 			}
 		]
 		},
