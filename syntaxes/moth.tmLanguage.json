@@ -37,8 +37,19 @@
 		"comments": {
 			"patterns": [
 				{
-					"name": "comment.line.moth",
-					"match": "//.*$"
+					"name": "comment.line.double-slash.moth",
+					"begin": "//",
+					"end": "\n"
+				},
+				{
+					"name": "comment.block.documentation.moth",
+					"begin": "/> ?!DOCS\r?\n",
+					"end": "</"
+				},
+				{
+					"name": "comment.block.moth",
+					"begin": "/>",
+					"end": "</"
 				}
 			]
 		},
@@ -46,11 +57,11 @@
 			"patterns": [
 			{
 				"name": "keyword.control.moth",
-				"match": "\\b(if|while|else|every|then|or|and|with|for)\\b"
+				"match": "\\b(if|while|else|every|then|or|and|with|for|ret)\\b"
 			},
 			{
 				"name": "keyword.other.moth",
-				"match": "\\b(namespace|foreign|fn|static|pub|var|ret|type|macro|impl|trait|virt|sealed|union|global|enum|extend)\\b"
+				"match": "\\b(namespace|foreign|fn|static|pub|var|type|macro|impl|trait|virt|sealed|union|global|enum|extend)\\b"
 			}
 		]
 		},
@@ -107,7 +118,7 @@
 		"attributes": {
 			"patterns": [
 				{
-					"name": "string.regexp",
+					"name": "string.moth",
 					"match": "@[A-Za-z0-9_]+"
 				}
 			]
