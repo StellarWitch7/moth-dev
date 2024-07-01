@@ -69,7 +69,7 @@
 			"patterns": [
 				{
 					"name": "constant.numeric.moth",
-					"match": "\\b[0-9]+"
+					"match": "\\b[0-9]+\\.?[0-9]*"
 				},
 				{
 					"name": "constant.character.escape.moth",
