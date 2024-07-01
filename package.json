@@ -2,7 +2,7 @@
   "name": "moth-dev",
   "displayName": "Moth Dev",
   "description": "VS Code support for the Moth language.",
-  "repository": "https://github.com/StellarWitch7/moth-lang",
+  "repository": "https://github.com/StellarWitch7/moth-dev",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.80.0"
